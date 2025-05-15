@@ -23,15 +23,18 @@ const About = () => {
   }, []);
 
   return (
-    // Add 80px padding left and right here
-    <div className="w-full overflow-hidden bg-white py-12 px-[40px]"> {/* 80px left & right padding */}
+    // Responsive padding: px-4 (16px) on mobile, 80px on desktop (px-20)
+    <div className="w-full overflow-hidden bg-white py-12 px-4 lg:px-20">
       {/* --- About Section --- */}
       <div
-        className="max-w-[calc(100%-160px)] mx-auto flex flex-col lg:flex-row items-center justify-between gap-12"
+        className="max-w-full lg:max-w-[calc(100%-160px)] mx-auto flex flex-col lg:flex-row items-center justify-between gap-12"
         data-aos="fade-up"
       >
         {/* Left Section */}
-        <div className="w-full lg:w-1/2 text-gray-700" data-aos="fade-right">
+        <div
+          className="w-full lg:w-1/2 text-gray-700"
+          data-aos="fade-right"
+        >
           <h4 className="text-blue-700 font-semibold mb-2 flex items-center gap-2">
             <IoCopy className="text-blue-700 text-lg" />
             Get to Know About Us
@@ -56,7 +59,7 @@ const About = () => {
 
           <p className="mb-6">
             Our team is dedicated to providing a seamless experience for our clients, by offering them comprehensive
-            services like <span className="text-blue-700 font-medium">digital marketing</span>,web development, app development and more. We are the upcoming big thing in the IT industry and the top software company in Jaipur, Rajasthan. We create a better future with technology while innovating technology for you.
+            services like <span className="text-blue-700 font-medium">digital marketing</span>, web development, app development and more. We are the upcoming big thing in the IT industry and the top software company in Jaipur, Rajasthan. We create a better future with technology while innovating technology for you.
           </p>
 
           {/* Features */}
@@ -86,14 +89,18 @@ const About = () => {
             <a href="https://instagram.com/__nitesh.1" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-pink-600 text-2xl hover:scale-110 transition" />
             </a>
-            <a href="www.linkedin.com/in/niteshmehran" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/niteshmehran" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-blue-600 text-2xl hover:scale-110 transition" />
             </a>
           </div>
         </div>
 
         {/* Right Section */}
-        <div className="w-full lg:w-1/2 flex justify-center" data-aos="fade-left" data-aos-delay="200">
+        <div
+          className="w-full lg:w-1/2 flex justify-center"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
           <img
             src="/about1.png"
             alt="Team working"
