@@ -1,0 +1,10 @@
+/* Custom height control for video */
+.custom-video {
+  height: 100vh; /* default full height */
+}
+
+@media (max-width: 600px) {
+  .custom-video {
+    height: 50vh !important; /* override on small screens */
+  }
+}

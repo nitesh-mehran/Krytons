@@ -78,13 +78,13 @@ const About = () => {
             <button className="bg-blue-800 text-white font-semibold text-lg px-6 py-2 rounded-full shadow-md hover:bg-blue-700 transition">
               About
             </button>
-            <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/8104942875" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="text-green-600 text-2xl hover:scale-110 transition" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/__nitesh.1" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-pink-600 text-2xl hover:scale-110 transition" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="www.linkedin.com/in/niteshmehran" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-blue-600 text-2xl hover:scale-110 transition" />
             </a>
           </div>
@@ -103,10 +103,14 @@ const About = () => {
       {/* --- Business Verticals --- */}
       <div className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
-          <h4 className="flex justify-center items-center gap-2 text-blue-700 font-medium mb-2 text-sm sm:text-base">
-            <IoCopy className="text-blue-700 text-xs" />
-            mapping a digital path with our cutting-edge technological solutions for a variety of business verticals
-          </h4>
+         <h4 className="flex justify-center items-center gap-2 text-blue-700 font-medium mb-2 text-sm sm:text-base text-center">
+  <IoCopy className="text-blue-700 text-lg flex-shrink-0" />
+  <span>
+    mapping a digital path with our cutting-edge technological solutions for a variety of business verticals
+  </span>
+</h4>
+
+
 
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             Creating Durable Value for Different Business Verticals

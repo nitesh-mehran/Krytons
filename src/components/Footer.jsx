@@ -42,7 +42,7 @@ const Footer = () => {
               <RiWhatsappFill size={32} color="#25D366" />
             </a>
             <a
-              href="https://www.instagram.com/__niitesh.1"
+              href="https://instagram.com/__nitesh.1"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -114,7 +114,7 @@ const Footer = () => {
           <RiWhatsappFill size={40} color="#25D366" />
         </a>
         <a
-          href='https://www.instagram.com/__nitesh.1'
+          href='https://instagram.com/__nitesh.1'
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
