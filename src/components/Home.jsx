@@ -22,7 +22,7 @@ const Home = () => {
 
         {/* Content over video */}
         <div className="relative z-10 flex items-start justify-start px-4 sm:px-10 pt-20 
-                        h-[50vh] min-[600px]:h-[100vh]">
+                        h-[50vh] min-[800px]:h-[100vh]">
           <div className="text-white w-full max-w-xl">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Linking <span className="text-blue-500">People</span> and{' '}
