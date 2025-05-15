@@ -23,9 +23,13 @@ const About = () => {
   }, []);
 
   return (
-    <div className="w-full overflow-hidden bg-white py-12"> {/* ✅ Added overflow-hidden to prevent horizontal scroll */}
+    // Add 80px padding left and right here
+    <div className="w-full overflow-hidden bg-white py-12 px-[40px]"> {/* 80px left & right padding */}
       {/* --- About Section --- */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-12" data-aos="fade-up">
+      <div
+        className="max-w-[calc(100%-160px)] mx-auto flex flex-col lg:flex-row items-center justify-between gap-12"
+        data-aos="fade-up"
+      >
         {/* Left Section */}
         <div className="w-full lg:w-1/2 text-gray-700" data-aos="fade-right">
           <h4 className="text-blue-700 font-semibold mb-2 flex items-center gap-2">
@@ -47,14 +51,12 @@ const About = () => {
           </p>
 
           <p className="mb-4">
-            We are in the process of creating a remarkable application that will connect you with skilled
-            professionals who can cater to all your daily service needs...
+            We are in the process of creating a remarkable application that will connect you with skilled professionals who can cater to all your daily service needs. From IT solutions to planning, research, development, design, feedback implementation, reviews, and maintenance, our experienced staff at Krytons ensures a comprehensive service for every task.
           </p>
 
           <p className="mb-6">
             Our team is dedicated to providing a seamless experience for our clients, by offering them comprehensive
-            services like <span className="text-blue-700 font-medium">digital marketing</span>, web development,
-            app development and more...
+            services like <span className="text-blue-700 font-medium">digital marketing</span>,web development, app development and more. We are the upcoming big thing in the IT industry and the top software company in Jaipur, Rajasthan. We create a better future with technology while innovating technology for you.
           </p>
 
           {/* Features */}
@@ -103,14 +105,12 @@ const About = () => {
       {/* --- Business Verticals --- */}
       <div className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
-         <h4 className="flex justify-center items-center gap-2 text-blue-700 font-medium mb-2 text-sm sm:text-base text-center">
-  <IoCopy className="text-blue-700 text-lg flex-shrink-0" />
-  <span>
-    mapping a digital path with our cutting-edge technological solutions for a variety of business verticals
-  </span>
-</h4>
-
-
+          <h4 className="flex justify-center items-center gap-2 text-blue-700 font-medium mb-2 text-sm sm:text-base text-center">
+            <IoCopy className="text-blue-700 text-lg flex-shrink-0" />
+            <span>
+              mapping a digital path with our cutting-edge technological solutions for a variety of business verticals
+            </span>
+          </h4>
 
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             Creating Durable Value for Different Business Verticals
@@ -126,7 +126,7 @@ const About = () => {
           <img
             src="/about2.png"
             alt="Business Value Visual"
-            className="w-full max-w-6xl h-auto rounded-lg shadow"
+            className="w-full max-w-6xl h-auto "
           />
         </div>
       </div>
